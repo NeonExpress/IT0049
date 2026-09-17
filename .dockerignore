@@ -1,0 +1,4 @@
+.git
+vendor
+writable/logs
+writable/session
