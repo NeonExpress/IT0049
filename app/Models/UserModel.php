@@ -1,10 +1,13 @@
-<?php 
+<?php
 
-namespace   App\Models;
+namespace App\Models;
+
 use CodeIgniter\Model;
-class UserModel extends Model{
-    protected $table = 'user';
+
+class UserModel extends Model
+{
+    protected $table = 'users';
     protected $primaryKey = 'id';
     protected $returnType = 'array';
-    protected $allowedFields = ['username', 'full_name', 'created_at'];
+    protected $allowedFields = ['username', 'full_name', 'avatar', 'created_at'];
 }

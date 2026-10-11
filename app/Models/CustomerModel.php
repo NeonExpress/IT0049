@@ -1,13 +1,13 @@
-<?php 
-namespace app\Models;
+<?php
+
+namespace App\Models;
 
 use CodeIgniter\Model;
 
-
-Class CustomerModel extends Model{
-    protected $table = 'customer';
+class CustomerModel extends Model
+{
+    protected $table = 'customers';
     protected $primaryKey = 'id';
     protected $returnType = 'array';
-    protected $allowedFields = ['name', 'email', 'phone', 'address'];
+    protected $allowedFields = ['full_name', 'email', 'phone', 'created_at'];
 }
-

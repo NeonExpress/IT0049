@@ -16,13 +16,24 @@
         h2 { font-size: 1.5rem; }
         p { line-height: 1.5; max-width: 650px; }
         .eyebrow { font-weight: bold; margin-bottom: 1rem; }
-        .actions { margin-top: 1rem; }
-        .button { color: #000; display: inline-block; margin-right: 1rem; }
+        .actions { margin: 1rem 0; }
+        .button { background: #000; border: 1px solid #000; color: #fff; cursor: pointer; display: inline-block; font: inherit; margin-right: 1rem; padding: .55rem .8rem; text-decoration: none; }
         .table-wrap { overflow-x: auto; }
         table { border-collapse: collapse; min-width: 600px; width: 100%; }
         th, td { border: 1px solid #000; padding: .6rem; text-align: left; }
         th { font-weight: bold; }
         .count { margin-bottom: 1rem; }
+        .alert { border: 1px solid #000; margin: 1rem 0; padding: .8rem; }
+        .alert ul { margin-bottom: 0; }
+        .success { background: #eaf7ea; }
+        .error { background: #fff0f0; }
+        .account-form { max-width: 600px; }
+        .account-form label { display: block; font-weight: bold; margin: 1rem 0 .35rem; }
+        .account-form input[type="text"], .account-form input[type="email"], .account-form input[type="tel"], .account-form input[type="file"] { display: block; font: inherit; padding: .55rem; width: 100%; }
+        .account-form small { display: block; margin-top: .4rem; }
+        .form-actions { align-items: center; display: flex; margin-top: 1.25rem; }
+        .avatar { border-radius: 50%; height: 48px; object-fit: cover; width: 48px; }
+        .avatar-preview { border-radius: 50%; display: block; height: 120px; margin-bottom: .75rem; object-fit: cover; width: 120px; }
         footer { border-top: 1px solid #000; margin: 0 auto; max-width: 900px; padding: 1rem; }
     </style>
 </head>
